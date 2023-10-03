@@ -9,6 +9,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"mdsvex": "^0.11.0",
 		"sass": "^1.68.0",
@@ -16,5 +17,8 @@
 		"svelte-preprocess": "^5.0.4",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@indaco/svelte-iconoir": "^4.6.0"
+	}
 }
