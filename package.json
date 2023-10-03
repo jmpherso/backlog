@@ -19,6 +19,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@indaco/svelte-iconoir": "^4.6.0"
+		"@indaco/svelte-iconoir": "^4.6.0",
+		"@sveltejs/gl": "^0.0.37",
+		"flubber": "^0.4.2",
+		"gsap": "^3.12.2",
+		"three": "^0.157.0"
 	}
 }
