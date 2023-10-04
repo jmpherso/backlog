@@ -4,18 +4,8 @@
   import theme from '$lib/stores/theme.js';
 
   let container;
-  let bgColor, lineColor;
-
-  $: {
-  if($theme === 'dark') {
-    console.log('test');
-    bgColor = '#333';
-    lineColor = '#FDFDFD';
-  } else {
-    bgColor = '#FDFDFD';
-    lineColor = '#333';
-  }
-}
+  let bgColor = "rgba(251, 251, 251, .1)";
+  let lineColor = "rgba(125, 125, 125, .9)";
 
   function createCanvasGridTexture(size = 512, step = 32, color = lineColor) {
     const canvas = document.createElement('canvas');
