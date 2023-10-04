@@ -6,11 +6,30 @@
   export let data;
 </script>
 
-<ThreeBackground />
-<Header />
+<div class="sticky-header">
+  <Header />
+</div>
 
-{#key data.currentRoute}
-  <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-    <slot />
-  </main>
-{/key}
+<ThreeBackground style="position: absolute; top: 0; left: 0; z-index: 7" />
+
+
+<div class="main-body">
+  {#key data.currentRoute}
+    <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
+      <slot />
+    </main>
+  {/key}
+</div>
+
+<style>
+
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .main-body {
+    z-index: 3;
+  }
+</style>

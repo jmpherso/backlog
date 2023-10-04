@@ -1,7 +1,7 @@
 /* style.css */
 body {
 	margin: 0;
-	background: rgb(253, 253, 253);
+	background: var(--bg-color);
 	color: #333;
 	font-family: sans-serif;
 }
@@ -9,5 +9,17 @@ body {
 main {
 	padding: 1rem;
 	margin: 2rem auto;
-	max-width: 40rem;
+	max-width: 80rem;
+}
+
+:root {
+	--bg-color: rgb(253, 253, 253);
+	--text-color: #333;
+	/* ... other variables ... */
+}
+
+[data-theme='dark'] {
+	--bg-color: #333;
+	--text-color: rgb(253, 253, 253);
+	/* ... other dark mode variables ... */
 }
