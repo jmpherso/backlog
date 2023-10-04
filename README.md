@@ -2,7 +2,7 @@
 
 Welcome to my personal blog, a space where I blend modern front-end web development and play with 3D graphics. Built with the simplicity of SvelteKit and the power of ThreeJS.
 
-![Blog Preview]([link-to-a-screenshot-image-of-your-blog.png](https://i.imgur.com/xyJpbx6.png))
+![Blog Preview]((https://i.imgur.com/xyJpbx6.png)
 
 ## 🌟 Features
 
