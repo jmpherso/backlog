@@ -21,4 +21,27 @@ Welcome to my personal blog, a space where I blend modern front-end web developm
    git clone https://github.com/your-username/your-blog-repo.git
    cd your-blog-repo
    npm install
+
+   Run locally
+2. **Run Locally**
+   ```bash
+   npm run dev
+   Open up your browser and navigate to http://localhost:5173.
+
+
+3. **Build for production**
+   ```bash
+   npm run build
+
+
+**📚 Technologies**
+SvelteKit
+ThreeJS
+Node.js
+
+**✋ Contributing**
+While this is a personal blog, I'm open to any suggestions or feedback. If you find any bugs or want to suggest improvements, feel free to create an issue or send a pull request.
+
+**📜 License**
+This project is licensed under the MIT License. See the LICENSE file for more information.
    
