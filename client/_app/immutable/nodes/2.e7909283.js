@@ -1,0 +1,1 @@
+import{s as n,o as s}from"../chunks/scheduler.8c1d7678.js";import{S as e,i as a}from"../chunks/index.6ba68cd4.js";import{j as r}from"../chunks/singletons.43fe2332.js";const i=r("goto");function c(o){return s(()=>{i("backlog/blog")}),[]}class u extends e{constructor(t){super(),a(this,t,c,null,n,{})}}export{u as component};
