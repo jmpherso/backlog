@@ -25,7 +25,7 @@ onMount(() => {
   <div class="nav">
 	  <a class="name-link" href="https://jmpherso.github.io">Jerry MacPherson</a>
     <div class="button-container">
-      <a href="http://localhost:5173/blog" class="icon-link"><HomeAltIcon size="2xl" /></a>
+      <a href="/blog" class="icon-link"><HomeAltIcon size="2xl" /></a>
       <a href="https://github.com/jmpherso/jmpherso.github.io/blob/main/resume.pdf" target="_blank" class="icon-link"><PageIcon size="2xl" /></a>
       <a href="https://github.com/jmpherso" target="_blank" class="icon-link"><GitHubIcon size="2xl" /></a>
       <a href="https://www.linkedin.com/in/jerry-macpherson/" target="_blank" class="icon-link"><LinkedInIcon size="2xl" /></a>

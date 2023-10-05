@@ -61,7 +61,7 @@
 <ul>
 	{#each data.posts as post}
 		<li>
-			<a href={post.path} class="card-link">
+			<a href='{post.path}' class="card-link">
 				<div class="card">
 					<div class="card-title">
 						{post.meta.title}
@@ -70,7 +70,7 @@
 						{post.meta.date}
 					</div>
 					<div class="card-content">
-						<svelte:component this={post.content} />
+						{post.textContent}
 					</div>
 				</div>
 			</a>
